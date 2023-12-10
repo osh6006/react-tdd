@@ -1,6 +1,5 @@
 import { Route } from "react-router-dom";
 import { render, screen, waitFor } from "@testing-library/react";
-import renderer from "react-test-renderer";
 
 import ChannelInfo from "../ChannelInfo";
 
@@ -15,7 +14,6 @@ describe("channel Info", () => {
 
   it("renders correctly", async () => {
     const { asFragment } = renderChannelInfoWithCallback(() => "url");
-
     await waitFor(() => screen.findByText("channel"));
     await waitFor(() => screen.findByRole("img"));
     expect(asFragment()).toMatchSnapshot();
@@ -29,6 +27,7 @@ describe("channel Info", () => {
     expect(screen.queryByRole("img")).toBeNull();
   });
 
+  // 어느정도 반복되는 것은 가독성이 좋기 때문에 너무 줄여서도 안된다~
   function renderChannelInfoWithCallback(callback) {
     fakeYoutube.channelImageURL.mockImplementation(callback);
     return render(

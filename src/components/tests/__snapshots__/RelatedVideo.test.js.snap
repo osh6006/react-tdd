@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`related videos renders correctly 1`] = `
+<DocumentFragment>
+  <ul>
+    <li
+      class="flex gap-1 m-2"
+    >
+      <img
+        alt="GloRilla, Cardi B - Tomorrow 2 (Official Music Video)"
+        class="w-60 mr-2"
+        src="https://i.ytimg.com/vi/zwa7NzNBQig/mqdefault.jpg"
+      />
+      <div>
+        <p
+          class="font-semibold my-2 line-clamp-2"
+        >
+          GloRilla, Cardi B - Tomorrow 2 (Official Music Video)
+        </p>
+        <p
+          class="text-sm opacity-80"
+        >
+          GloRillaVEVO
+        </p>
+        <p
+          class="text-sm opacity-80"
+        >
+          1 year ago
+        </p>
+      </div>
+    </li>
+    <li
+      class="flex gap-1 m-2"
+    >
+      <img
+        alt="GloRilla, Cardi B - Tomorrow 2 (Official Music Video)"
+        class="w-60 mr-2"
+        src="https://i.ytimg.com/vi/zwa7NzNBQig/mqdefault.jpg"
+      />
+      <div>
+        <p
+          class="font-semibold my-2 line-clamp-2"
+        >
+          GloRilla, Cardi B - Tomorrow 2 (Official Music Video)
+        </p>
+        <p
+          class="text-sm opacity-80"
+        >
+          GloRillaVEVO
+        </p>
+        <p
+          class="text-sm opacity-80"
+        >
+          1 year ago
+        </p>
+      </div>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
